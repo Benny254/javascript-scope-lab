@@ -1,1 +1,24 @@
-// Write your solution in this file!
+//Determine the types of scope you will need to create for the code structure. 
+// You will be developing a menu with milkshakes and burgers. 
+// You will also be creating menu features for both the milkshake and burger.
+
+
+let burgers = ['Hamburger', 'Cheeseburger'];
+let featuredDrink = 'Strawberry Milkshake';
+
+function addBurger(){
+    const newBurger = 'Flatburger';
+    burgers.push(newBurger);
+}
+
+if(true){
+    const anotherNewBurger = 'Maple Bacon Burger';
+    burgers.push(anotherNewBurger);
+}
+changeFeaturedDrink();
+function changeFeaturedDrink(){
+    featuredDrink = 'The JavaShake';
+}
+
+console.log(burgers);
+console.log(featuredDrink);
