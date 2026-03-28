@@ -2,8 +2,7 @@
 // You will be developing a menu with milkshakes and burgers. 
 // You will also be creating menu features for both the milkshake and burger.
 
-
-let burgers = ['Hamburger', 'Cheeseburger'];
+const burgers = ['Hamburger', 'Cheeseburger'];
 let featuredDrink = 'Strawberry Milkshake';
 
 function addBurger(){
@@ -19,6 +18,7 @@ changeFeaturedDrink();
 function changeFeaturedDrink(){
     featuredDrink = 'Strawberry Milkshake';
     const Milkshake = 'The JavaShake';
+    featuredDrink = Milkshake;
 }
 
 console.log(burgers);
