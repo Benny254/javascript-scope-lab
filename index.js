@@ -4,6 +4,7 @@
 
 const burgers = ['Hamburger', 'Cheeseburger'];
 let featuredDrink = 'Strawberry Milkshake';
+JavaShake = 'Strawberry Milkshake';
 
 function addBurger(){
     const newBurger = 'Flatburger';
