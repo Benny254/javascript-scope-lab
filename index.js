@@ -17,7 +17,8 @@ if(true){
 }
 changeFeaturedDrink();
 function changeFeaturedDrink(){
-    featuredDrink = 'The JavaShake';
+    featuredDrink = 'Strawberry Milkshake';
+    const Milkshake = 'The JavaShake';
 }
 
 console.log(burgers);
